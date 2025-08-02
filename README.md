@@ -1,4 +1,4 @@
-# RopaControl – Sistema de Gestión de Inventario de Ropa
+# RopaControl – Sistema de Gestión de Inventario de Ropa version-2.0-singleton
 
 Proyecto educativo desarrollado como parte del módulo **Ingeniería de Software II**, cuyo propósito es brindar una solución sencilla, funcional y escalable para el control de inventario en pequeños almacenes de ropa.
 
@@ -12,6 +12,7 @@ Este sistema permite aplicar conceptos clave de desarrollo de software, incluyen
 - **Desarrollo incremental:** implementación paso a paso de funcionalidades CRUD (Crear, Leer, Actualizar, Eliminar).
 - **Escalabilidad:** pensado para ser ampliado con nuevos módulos como autenticación, alertas, reportes y conexión a base de datos.
 - **Colaboración y control de versiones:** uso de herramientas como Git para gestionar cambios en equipo.
+- **Uso de patrones de diseño:** integración del patrón **Singleton** para el control de instancias en la capa de vista.
 
 ---
 
@@ -21,6 +22,7 @@ Este sistema permite aplicar conceptos clave de desarrollo de software, incluyen
 - CSS
 - JavaScript 
 - Patrón arquitectónico: **MVC**
+- Patrón de diseño: **Singleton**
 - Almacenamiento: **LocalStorage del navegador** (versión inicial)
 
 ---
@@ -31,6 +33,7 @@ Este sistema permite aplicar conceptos clave de desarrollo de software, incluyen
 - Visualización dinámica en tabla
 - Edición y actualización de productos existentes
 - Eliminación de productos del inventario
+- Prevención de múltiples instancias de la vista mediante el uso del patrón Singleton
 
 ---
 
@@ -51,9 +54,7 @@ Eres libre de adaptarlo, extenderlo o compartirlo siempre que se mantenga el cr�
 
 ---
 
-**Autores:**  
-- Edwin Fabián Álvarez Jiménez  
-- Jesús Esteban Álvarez Jiménez  
-- Luis Alberto Montiel Díaz  
-**Fecha:** 26/07/2025  
+**Autor:**   
+- Jesús Esteban Álvarez Jiménez   
+**Fecha:** 02/08/2025  
 **Materia:** Ingeniería de Software II  

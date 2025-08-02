@@ -1,0 +1,194 @@
+/* ===================== */
+/* RESET Y BASE */
+/* ===================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+    background-color: #f1f5f9;
+    padding: 2rem;
+    color: #1e293b;
+}
+
+/* ===================== */
+/* TÍTULO PRINCIPAL */
+/* ===================== */
+.titulo-principal {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    border-radius: 14px;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* ===================== */
+/* SUBTÍTULOS */
+/* ===================== */
+h2 {
+    background-color: #2563eb;
+    color: white;
+    padding: 1rem 1.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 12px;
+    margin-bottom: 1.8rem;
+}
+
+/* ===================== */
+/* FORMULARIO */
+/* ===================== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,
+select {
+    padding: 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    background-color: #f8fafc;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #3b82f6;
+    outline: none;
+    background-color: #fff;
+}
+
+form button {
+    background-color: #10b981;
+    color: white;
+    padding: 1rem 1.8rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #059669;
+    transform: scale(1.05);
+}
+
+/* ===================== */
+/* TABLA */
+/* ===================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+thead {
+    background: linear-gradient(to right, #1d4ed8, #2563eb);
+    color: white;
+    font-size: 1.25rem;
+}
+
+th,
+td {
+    padding: 1.4rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Colores alternos para filas */
+tbody tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+tbody tr:hover {
+    background-color: #e0f2fe;
+    cursor: pointer;
+}
+
+/* ===================== */
+/* BOTONES DE ACCIÓN */
+/* ===================== */
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.actions button {
+    padding: 1rem 1.6rem;         /* Aumentado */
+    font-size: 1.1rem;            /* Aumentado */
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;          /* Más redondeado */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Botón Editar */
+.edit-btn {
+    background-color: #facc15;
+    color: #1e293b;
+}
+.edit-btn:hover {
+    background-color: #eab308;
+    transform: scale(1.08);      /* Ligero aumento al hacer hover */
+}
+
+/* Botón Eliminar */
+.delete-btn {
+    background-color: #ef4444;
+    color: white;
+}
+.delete-btn:hover {
+    background-color: #dc2626;
+    transform: scale(1.08);
+}
+
+
+/* ===================== */
+/* RESPONSIVE */
+/* ===================== */
+@media (max-width: 768px) {
+    section {
+        padding: 1.5rem;
+    }
+
+    .titulo-principal {
+        font-size: 1.8rem;
+        padding: 1.2rem;
+    }
+
+    table, th, td {
+        font-size: 1rem;
+    }
+
+    .actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .actions button {
+        width: 100%;
+        text-align: center;
+    }
+}
