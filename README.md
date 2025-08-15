@@ -1,4 +1,4 @@
-# RopaControl – Sistema de Gestión de Inventario de Ropa version-2.0-singleton
+# RopaControl – Sistema de Gestión de Inventario de Ropa version-2.1-singleton-auditoria-operaciones
 
 Proyecto educativo desarrollado como parte del módulo **Ingeniería de Software II**, cuyo propósito es brindar una solución sencilla, funcional y escalable para el control de inventario en pequeños almacenes de ropa.
 
@@ -56,5 +56,5 @@ Eres libre de adaptarlo, extenderlo o compartirlo siempre que se mantenga el cr�
 
 **Autor:**   
 - Jesús Esteban Álvarez Jiménez   
-**Fecha:** 02/08/2025  
+**Fecha:** 15/08/2025  
 **Materia:** Ingeniería de Software II  
